@@ -50,7 +50,7 @@ void parseAndMove(String data) {
     int pan = panStr.toInt();
     int tilt = tiltStr.toInt();
 
-    pan = constrain(pan, -180, 180);
+    pan = constrain(pan, 0, 180);
     tilt = constrain(tilt, 0, 180);
 
     panServo.write(pan);

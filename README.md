@@ -9,7 +9,7 @@ pan servo:
   180 - west
   90 (180 tilt servo) - south
 
-titl servo:
+titl servo:\n
   0 - forward (north)
   90 - perpendicular
   180 - backward (south)
